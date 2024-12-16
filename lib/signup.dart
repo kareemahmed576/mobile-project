@@ -105,6 +105,7 @@ class _SignupState extends State<Signup> {
                     'email': emailTextEdit.text,
                     'password': passwordTextEdit.text,
                     'type':"customer",
+                    'id':"0"
                   },
                 );
                 Navigator.push(context, MaterialPageRoute(builder: (context) => Login()));

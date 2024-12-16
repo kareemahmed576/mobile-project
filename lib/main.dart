@@ -1,9 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:online_shopping/home.dart';
+import 'package:online_shopping/signup.dart';
 import 'package:online_shopping/variables.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'adminpage.dart';
 import 'firebase_options.dart';
 import 'login.dart';
 
