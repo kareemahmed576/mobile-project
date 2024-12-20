@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:online_shopping/product.dart';
-import 'package:online_shopping/profile.dart';
+import 'package:online_shopping/Profile1.dart';
 import 'package:online_shopping/variables.dart';
 import 'package:online_shopping/viewallproduct.dart';
 import 'package:online_shopping/viewproduct.dart';
@@ -71,7 +71,7 @@ class _HomeState extends State<Home> {
                     ],
                   ),
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => Profile(username, email)));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Profile1(username, email)));
                   },
                 ),
                 TextButton(
