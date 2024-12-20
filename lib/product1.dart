@@ -2,7 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-class Product extends StatelessWidget {
+class Product1 extends StatelessWidget {
   String name;
   String imgage_url;
   String category;
@@ -10,7 +10,7 @@ class Product extends StatelessWidget {
   dynamic discount;
   dynamic counter = 1;
 
-  Product(this.name, this.imgage_url, this.category,
+  Product1(this.name, this.imgage_url, this.category,
       this.price, this.discount);
 
   @override

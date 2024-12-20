@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:online_shopping/product.dart';
+import 'package:online_shopping/Product1.dart';
 import 'package:online_shopping/variables.dart';
 
 

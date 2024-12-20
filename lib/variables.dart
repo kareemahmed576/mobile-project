@@ -1,4 +1,4 @@
-import 'package:online_shopping/product.dart';
+import 'package:online_shopping/Product1.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 
@@ -12,7 +12,7 @@ savePref(bool check,String _name,String _email)async{
 }
 // cart
 
-List<Product> cart_list = [];
+List<Product1> cart_list = [];
 
 // total price
 

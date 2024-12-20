@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:online_shopping/product.dart';
+import 'package:online_shopping/Product1.dart';
 import 'package:online_shopping/Profile1.dart';
 import 'package:online_shopping/variables.dart';
 import 'package:online_shopping/viewallproduct.dart';

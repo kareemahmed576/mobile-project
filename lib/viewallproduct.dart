@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:online_shopping/product.dart';
+import 'package:online_shopping/Product1.dart';
 
 class Viewall extends StatelessWidget {
   @override
@@ -18,7 +18,7 @@ class Viewall extends StatelessWidget {
               return ListView.builder(
                   itemCount: snapshot.data.docs.length,
                   itemBuilder: (context, index ) {
-                    return Product(
+                    return Product1(
                         snapshot.data.docs[index]["name"],
                         snapshot.data.docs[index]["imgname"],
                         snapshot.data.docs[index]["category"],
